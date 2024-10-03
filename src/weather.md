@@ -1,4 +1,9 @@
 # Weather report
-```js
-display(1 + 2);
+```js 
+const forecast = FileAttachment("./data/forecast.json").json();
+```
+
+
+```js  
+display(forecast);
 ```
